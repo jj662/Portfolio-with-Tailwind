@@ -9,6 +9,3 @@ A personal portfolio website using only HTML and Tailwind CSS — fully responsi
 I even integrated screenshots and project cards using Tailwind's grid, flex, hover transitions, and form elements.
 
 🔗 Thanks to DevTown for this amazing hands-on bootcamp! Great mentor support and well-structured content.
-
-Check out my post and feel free to connect 🤝
-Let’s keep learning and building together!
