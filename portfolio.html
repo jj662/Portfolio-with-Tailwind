@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 scroll-smooth">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-100 text-black p-4 fixed w-full top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Joyal Johnson</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-blue-400">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-400">About</a></li>
+        <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center bg-blue-50 pt-20">
+    <img src="images/profile.jpg" alt="Avatar" class="rounded-lg  w-40 h-40 mb-6" />
+    <h2 class="text-5xl font-bold mb-2">Hi, I'm <span class="text-blue-500"> Joyal Johnson</span></h2><br>
+    <p class="text-xl mb-4">Web Developer & UI/UX Designer</p>
+    <p class="italic mb-6">"Building digital experiences that matter."</p>
+    <a href="files/my_resume.pdf" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-600 transition transform hover:scale-105">Download Resume</a>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="bg-gray-100 py-20 px-4">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold mb-8 text-center">About Me</h2>
+      <p class="text-lg mb-10 leading-relaxed text-gray-700">
+        Hello! I'm <strong>Joyal Johnson</strong>, a passionate and creative web developer.I enjoy transforming ideas into beautifully crafted digital solutions.
+        My goal is to build responsive, user-centric websites and applications that solve real-world problems. Whether it's a clean portfolio, a functional landing page, or a complex web interface, I strive to deliver pixel-perfect results with attention to detail.
+        When I'm not coding, you'll find me exploring UI/UX design trends or learning new tools that push the boundaries of web development.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Skills</h3>
+          <ul class="list-disc pl-6">
+            <div class="mt-4 flex flex-col space-y-4">
+              <li><span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm ">HTML</span></li>
+              <li><span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm">CSS</span></li>          
+              <li><span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm">Tailwind</span></li>   
+              <li><span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm">Javascript</span></li>    
+            </div>
+          </ul>
+        </div>
+         <div>
+          <h3 class="text-2xl font-semibold mb-4">Education & Experience</h3>
+          <div class="space-y-4">
+            <div class="bg-white p-4 rounded-lg shadow-md transition transform hover:scale-105">
+              <h4 class="font-bold ">Diploma in Computer Engineering</h4>
+              <p class="text-sm text-blue-600">2023 - 2025</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md transition transform hover:scale-105">
+              <h4 class="font-bold">Higher secondary(+2)</h4>
+              <p class="text-sm text-blue-600">2021 - 2023</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-white py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold mb-8 text-center">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Project Card -->
+        <div class="bg-gray-50 rounded-lg shadow-lg p-4 hover:scale-105 hover:shadow-xl transition">
+          <img src="images/taskmaster.png" alt="Project 1" class="rounded mb-4" />
+          <h3 class="text-xl font-semibold">TaskMaster</h3>
+          <p class="mb-2">A simple yet powerful to-do list web application that allows users to add, edit, and delete daily tasks. It includes local storage support so tasks are saved between sessions..</p>
+          <h6 class="text-md font-semibold mb-2">Tools and Technologies used :</h6>
+          <ul class="list-disc pl-6" >
+            <div class="mt-4 flex flex-col space-y-4">
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm ">HTML5</span></li>
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm">CSS3</span></li>          
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm">Javascript</span></li>   
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm">Tailwind CSS</span></li>
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm">LocalStorage API</span></li>    
+            </div>
+          </ul>
+        </div>
+        <!-- Project Card -->
+        <div class="bg-gray-50 rounded-lg shadow-lg p-4 hover:scale-105 hover:shadow-xl transition">
+          <img src="images/foodie.png" alt="Project 2" class="rounded mb-4" />
+          <h6 class="text-xl font-semibold">Foodie landing page</h6>
+          <p class="mb-2">A modern and visually appealing landing page for a fictional food delivery startup. Includes hero sections, CTA buttons, testimonials, and a pricing table.</p>
+          <h6 class="text-md font-semibold mb-2">Tools and Technologies used :</h6>
+          <ul class="list-disc pl-6">
+            <div class="mt-4 flex flex-col space-y-4">
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm ">HTML5</span></li>
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm">Tailwind CSS</span></li>          
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm">Google fonts</span></li>   
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm">Heroicons</span></li>
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm">Responsive layuots</span></li>    
+            </div>
+          </ul>
+        </div>
+        <!-- Project Card -->
+        <div class="bg-gray-50 rounded-lg shadow-lg p-4 hover:scale-105 hover:shadow-xl transition">
+          <img src="images/blog.png" alt="Project 3" class="rounded mb-4" />
+          <h6 class="text-xl font-semibold">DevBlog</h6>
+          <p class="mb-2">A blog layout for developers that showcases articles, categories, and author bios. Built using static HTML and styled entirely with Tailwind CSS.</p>
+          <h6 class="text-md font-semibold mb-2">Tools and Technologies used :</h6>
+          <ul class="list-disc pl-6">
+            <div class="mt-4 flex flex-col space-y-4">
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm ">HTML5</span></li>
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm">Tailwind CSS</span></li>          
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm">Responsive grid</span></li>   
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm">Heroicons/SVG icons</span></li>
+              <li><span class="inline-block bg-blue-100 text-black-800 px-3 py-2 rounded-full text-sm">Markdown-inspired UI</span></li>    
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-100 py-20 px-4">
+    <div class="max-w-md mx-auto">
+      <h2 class="text-4xl font-bold mb-8 text-center">Contact Me</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full border border-blue-300 rounded-lg px-4 py-2" />
+        <input type="email" placeholder="Your Email" class="w-full border border-blue-300 rounded-lg px-4 py-2" />
+        <textarea rows="4" placeholder="Your Message" class="w-full border border-blue-300 rounded-lg px-4 py-2"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition transform hover:scale-105">Send Message</button>
+      </form>
+      <div class="mt-6 text-center">
+        <p>Or connect with me on:</p>
+        <div class="flex justify-center space-x-4 mt-2">
+          <a href="https://www.linkedin.com/in/joyal-johnson662" class="text-blue-500 hover:text-blue-700"><img src="images/linkedin.png" height="50px" width="50px"></a>
+          <a href="https://github.com/jj662" class="text-gray-600 hover:text-gray-900"><img src="images/github.png" height="40px" width="40px"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 text-black text-center py-4">
+    © 2025 Joyal Johnson. All rights reserved.
+  </footer>
+
+</body>
+</html>
