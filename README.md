@@ -20,8 +20,6 @@ GitHub project structure & README writing
 
 Smooth UI/UX practices for modern web dev
 
-💡 Currently learning: ASP.NET Full Stack Development to power up my backend skills!
-
 🔗 Thanks to DevTown for this amazing hands-on bootcamp! Great mentor support and well-structured content.
 
 Check out my post and feel free to connect 🤝
